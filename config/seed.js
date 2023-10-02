@@ -47,9 +47,6 @@ async function seed() {
     }
     } catch (error) {
         console.error('Error seeding the database:', error);
-    } finally {
-        // End the database connection pool
-        await db.end();
     }
     
 }
