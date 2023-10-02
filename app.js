@@ -7,6 +7,7 @@ dotenv.config({ path: "./config/config.env" });
 const envelopesRouter = require("./routes/envelopes");
 const transactionsRouter = require("./routes/transactions");
 const docsRouter = require("./routes/docs");
+const seedDb = require('./config/seed')
 
 const app = express();
 
